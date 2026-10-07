@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NST Store (@nst_ore7) - Servis & Jual Beli iPhone Bergaransi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/jpeg" href="asset/logo-nst.jpeg" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigasi Utama -->
+    <header class="site-header">
+      <div class="nav-container">
+        <a href="#home" class="brand-link">
+          <img src="asset/logo-nst.jpeg" alt="Logo NST Phoneshop" class="brand-logo-img" />
+          <div class="brand-text-wrap">
+            <span class="brand-title">NST PHONESHOP</span>
+            <span class="brand-tag">iPhone Repair & Retail</span>
+          </div>
+        </a>
+
+        <nav class="main-nav">
+          <a href="#servis">Layanan Servis</a>
+          <a href="#tabel-biaya">Daftar Biaya</a>
+          <a href="#alur">Alur Pengerjaan</a>
+          <a href="#galeri">Galeri Toko</a>
+          <a href="https://www.instagram.com/nst_ore7/" target="_blank" rel="noopener noreferrer" class="link-instagram">Instagram @nst_ore7</a>
+        </nav>
+
+        <div class="header-action">
+          <button class="btn btn-primary btn-sm trigger-consultation">Konsultasi Kerusakan</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-block">
+      <div class="hero-inner">
+        <div class="hero-label">Workshop Servis & Retail iPhone</div>
+        <h1 class="hero-headline">Reparasi Hardware iPhone Transparan & Terstandarisasi.</h1>
+        <p class="hero-lead">
+          NST Store (@nst_ore7) melayani perbaikan hardware iPhone dengan diagnosis berbasis data teknis riil, estimasi biaya yang pasti, serta menyediakan unit iPhone second berkualitas bergaransi toko.
+        </p>
+
+        <div class="hero-actions">
+          <button class="btn btn-primary btn-md trigger-consultation">Konsultasi Gejala Online</button>
+          <a href="https://www.instagram.com/nst_ore7/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-md">Kunjungi Instagram @nst_ore7</a>
+        </div>
+
+        <!-- Quick Symptom Selector -->
+        <div class="diagnostic-picker">
+          <div class="picker-header">
+            <strong>Pilih keluhan awal untuk diagnosa cepat:</strong>
+            <span>Pilih salah satu gejala di bawah untuk membuka asisten konsultasi teknis</span>
+          </div>
+          <div class="picker-buttons">
+            <button class="chip" data-symptom="Layar iPhone saya bergaris dan touchscreen macet">Layar Bergaris / Sentuhan Macet</button>
+            <button class="chip" data-symptom="Baterai iPhone cepat habis dan mendadak drop">Baterai Cepat Drop / Kembung</button>
+            <button class="chip" data-symptom="iPhone tidak bisa dicas dan konektor longgar">Konektor Cas Tidak Masuk</button>
+            <button class="chip" data-symptom="Sinyal iPhone mencari terus atau searching no service">Sinyal Searching / Hilang</button>
+            <button class="chip" data-symptom="iPhone mati total tidak bisa dinyalakan sama sekali">Mati Total / Tidak Merespon</button>
+            <button class="chip" data-symptom="Kamera iPhone bergetar dan tidak bisa fokus">Kamera Bergetar / Blank</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section id="servis" class="content-section bg-alt">
+      <div class="section-container">
+        <div class="section-title-wrap">
+          <span class="sub-label">Bidang Keahlian</span>
+          <h2>Layanan Perbaikan Hardware iPhone</h2>
+          <p>Seluruh penanganan teknis dilakukan langsung menggunakan alat ukur profesional dan komponen berkualitas teruji.</p>
+        </div>
+
+        <div class="service-list-grid">
+          <div class="service-box">
+            <h3>Layar LCD & OLED</h3>
+            <p>Penggantian modul layar pecah, bergaris, blank putih, greenscreen, dan sensor sentuh macet dengan panel presisi.</p>
+            <div class="service-footer">
+              <span class="durasi">30 - 60 menit</span>
+              <span class="harga">Mulai Rp 400.000</span>
+            </div>
+          </div>
+
+          <div class="service-box">
+            <h3>Baterai & Pengisian</h3>
+            <p>Penggantian baterai drop, kembung, persentase loncat, serta reset siklus daya agar performa perangkat kembali optimal.</p>
+            <div class="service-footer">
+              <span class="durasi">30 - 60 menit</span>
+              <span class="harga">Mulai Rp 250.000</span>
+            </div>
+          </div>
+
+          <div class="service-box">
+            <h3>Port Charger & IC Cas</h3>
+            <p>Perbaikan konektor cas aus atau kotor, serta perbaikan chip charging controller (Tristar/Hydra) untuk kendala baterai tidak bertambah saat dicas.</p>
+            <div class="service-footer">
+              <span class="durasi">20 menit - 3 jam</span>
+              <span class="harga">Mulai Rp 100.000</span>
+            </div>
+          </div>
+
+          <div class="service-box">
+            <h3>Motherboard & IC Power</h3>
+            <p>Pengukuran jalur tegangan utama VDD dan reballing chip daya (PMIC) untuk iPhone mati total atau mengalami korsleting arus pendek.</p>
+            <div class="service-footer">
+              <span class="durasi">3 - 8 jam</span>
+              <span class="harga">Mulai Rp 400.000</span>
+            </div>
+          </div>
+
+          <div class="service-box">
+            <h3>Jaringan & Sinyal (Baseband)</h3>
+            <p>Penanganan sinyal hilang total (No Service / Searching), IMEI hilang saat dial *#06#, antena putus, atau tombol Wi-Fi berwarna abu-abu.</p>
+            <div class="service-footer">
+              <span class="durasi">30 menit - 6 jam</span>
+              <span class="harga">Mulai Rp 50.000</span>
+            </div>
+          </div>
+
+          <div class="service-box">
+            <h3>Kamera & Modul Audio</h3>
+            <p>Penggantian kamera belakang bergetar akibat OIS rusak, speaker kresek, mikrofon telepon tidak terdengar, dan servis chip Audio Codec.</p>
+            <div class="service-footer">
+              <span class="durasi">20 menit - 2 jam</span>
+              <span class="harga">Mulai Rp 100.000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Price Reference Table Section -->
+    <section id="tabel-biaya" class="content-section">
+      <div class="section-container">
+        <div class="section-title-wrap">
+          <span class="sub-label">Transparansi Harga</span>
+          <h2>Daftar Estimasi Biaya Komponen & Servis</h2>
+          <p>Rentang biaya resmi berdasarkan basis data penanganan teknis NST Phoneshop.</p>
+        </div>
+
+        <div class="table-container">
+          <table class="price-table">
+            <thead>
+              <tr>
+                <th>Komponen / Kategori Kerusakan</th>
+                <th>Gejala Utama</th>
+                <th>Waktu Pengerjaan</th>
+                <th>Estimasi Rentang Biaya</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Layar LCD / OLED</strong></td>
+                <td>Layar bergaris, greenscreen, blank, touchscreen tidak respon</td>
+                <td>30 - 60 menit</td>
+                <td><span class="price-tag">Rp 400.000 - Rp 2.500.000</span></td>
+              </tr>
+              <tr>
+                <td><strong>Baterai</strong></td>
+                <td>Cepat habis, kembung mengangkat layar, mati saat sisa 20%</td>
+                <td>30 - 60 menit</td>
+                <td><span class="price-tag">Rp 250.000 - Rp 750.000</span></td>
+              </tr>
+              <tr>
+                <td><strong>Port Pengisian Cas</strong></td>
+                <td>Kabel longgar, harus ditekuk, tidak mengisi</td>
+                <td>20 - 45 menit</td>
+                <td><span class="price-tag">Rp 100.000 - Rp 450.000</span></td>
+              </tr>
+              <tr>
+                <td><strong>IC Cas (Tristar / Hydra)</strong></td>
+                <td>Indikator cas aktif tetapi persentase baterai tidak bertambah</td>
+                <td>1 - 4 jam</td>
+                <td><span class="price-tag">Rp 250.000 - Rp 700.000</span></td>
+              </tr>
+              <tr>
+                <td><strong>IC Power (PMIC Motherboard)</strong></td>
+                <td>Mati total arus nol (0,0A) atau korsleting panas (0,6A)</td>
+                <td>3 - 8 jam</td>
+                <td><span class="price-tag">Rp 400.000 - Rp 1.200.000</span></td>
+              </tr>
+              <tr>
+                <td><strong>IC WTR (Baseband Transceiver)</strong></td>
+                <td>Sinyal mencari terus (Searching), IMEI hilang, Wi-Fi abu-abu</td>
+                <td>3 - 6 jam</td>
+                <td><span class="price-tag">Rp 450.000 - Rp 1.000.000</span></td>
+              </tr>
+              <tr>
+                <td><strong>Kamera Depan / Belakang</strong></td>
+                <td>Kamera blank hitam, getar saat fokus, bercak pada lensa</td>
+                <td>30 - 90 menit</td>
+                <td><span class="price-tag">Rp 300.000 - Rp 1.500.000</span></td>
+              </tr>
+              <tr>
+                <td><strong>Speaker & Earpiece</strong></td>
+                <td>Suara kresek-kresek, volume sangat kecil, speaker mati</td>
+                <td>20 - 45 menit</td>
+                <td><span class="price-tag">Rp 100.000 - Rp 400.000</span></td>
+              </tr>
+              <tr>
+                <td><strong>Kaca Belakang (Backdoor)</strong></td>
+                <td>Kaca bodi belakang retak atau pecah akibat benturan</td>
+                <td>1 - 3 jam</td>
+                <td><span class="price-tag">Rp 150.000 - Rp 800.000</span></td>
+              </tr>
+              <tr>
+                <td><strong>Pemulihan Software (iOS)</strong></td>
+                <td>Stuck logo Apple, bootloop berulang, lupa passcode</td>
+                <td>20 - 40 menit</td>
+                <td><span class="price-tag">Rp 50.000 - Rp 100.000</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Flow Section -->
+    <section id="alur" class="content-section bg-alt">
+      <div class="section-container">
+        <div class="section-title-wrap">
+          <span class="sub-label">Prosedur Kerja</span>
+          <h2>Alur Servis di NST Store</h2>
+          <p>Kepastian kondisi perangkat dan persetujuan biaya sebelum tindakan pembongkaran dilakukan.</p>
+        </div>
+
+        <div class="steps-row">
+          <div class="step-card">
+            <span class="step-num">01</span>
+            <h4>Konsultasi Awal</h4>
+            <p>Sampaikan gejala kerusakan via chatbot online atau langsung di workshop untuk mendapatkan perkiraan komponen terdampak.</p>
+          </div>
+          <div class="step-card">
+            <span class="step-num">02</span>
+            <h4>Pengecekan Fisik</h4>
+            <p>Pengujian arus tegangan dan kelayakan komponen menggunakan power supply DC sebelum tindakan perbaikan.</p>
+          </div>
+          <div class="step-card">
+            <span class="step-num">03</span>
+            <h4>Konfirmasi & Pengerjaan</h4>
+            <p>Teknisi memberikan rincian harga pasti suku cadang. Perbaikan baru dikerjakan setelah pelanggan memberi izin.</p>
+          </div>
+          <div class="step-card">
+            <span class="step-num">04</span>
+            <h4>Uji Fungsi & Garansi</h4>
+            <p>Pemeriksaan menyeluruh seluruh sensor dan fungsi hardware sebelum unit diserahkan kembali dengan nota garansi resmi.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Showcase Section (Real In-Store & Instagram Assets) -->
+    <section id="galeri" class="content-section">
+      <div class="section-container">
+        <div class="section-title-wrap">
+          <span class="sub-label">Dokumentasi Toko & Inventaris</span>
+          <h2>Galeri Workshop & Stok Unit NST TNJ</h2>
+          <p>Kondisi fisik toko, display aksesoris, dan unit ready stock langsung dari workshop NST Phoneshop Tanjungpinang.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-card">
+            <div class="gallery-img-wrap">
+              <img src="asset/gambar 1.jpeg" alt="Unit Display dan Aksesoris NST Phoneshop" class="gallery-img" loading="lazy" />
+              <span class="gallery-badge">Workshop & Retail</span>
+            </div>
+            <div class="gallery-info">
+              <h3>Unit Display & Aksesoris Bergaransi</h3>
+              <p>Showcase unit iPad dan aksesoris resmi (charger, kabel data, audio) tersedia langsung di etalase toko untuk melengkapi kebutuhan perangkat Apple Anda.</p>
+            </div>
+          </div>
+
+          <div class="gallery-card">
+            <div class="gallery-img-wrap">
+              <img src="asset/gambar 2.jpeg" alt="Stok Unit dan Case iPhone Ready in NST TNJ" class="gallery-img" loading="lazy" />
+              <span class="gallery-badge">Ready in NST TNJ</span>
+            </div>
+            <div class="gallery-info">
+              <h3>Stok iPhone & Proteksi Case Premium</h3>
+              <p>Koleksi unit iPhone second teruji siap pakai beserta casing proteksi berstandar tinggi yang rutin diperbarui melalui Instagram resmi @nst_ore7.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Store Profile & Instagram Section -->
+    <section class="store-profile-section">
+      <div class="section-container">
+        <div class="profile-card">
+          <div class="profile-text">
+            <span class="profile-tag">Toko & Portofolio Resmi</span>
+            <h2>Ikuti Update Stok & Hasil Pengerjaan di @nst_ore7</h2>
+            <p>
+              Kami aktif membagikan dokumentasi reparasi teknis harian, edukasi perawatan baterai, serta ketersediaan stok unit iPhone second bergaransi langsung di Instagram resmi kami.
+            </p>
+            <div class="profile-actions">
+              <a href="https://www.instagram.com/nst_ore7/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-md">
+                Buka Instagram @nst_ore7
+              </a>
+              <button class="btn btn-outline-dark btn-md trigger-consultation">
+                Tanya Teknis Sekarang
+              </button>
+            </div>
+          </div>
+
+          <div class="profile-details-box">
+            <div class="detail-row">
+              <span class="detail-label">Akun Instagram</span>
+              <strong class="detail-val">@nst_ore7</strong>
+            </div>
+            <div class="detail-row">
+              <span class="detail-label">WhatsApp Admin</span>
+              <strong class="detail-val">
+                <a href="https://wa.me/6281275417695" target="_blank" rel="noopener noreferrer" class="link-wa">0812-7541-7695</a> / 
+                <a href="https://wa.me/6283161626163" target="_blank" rel="noopener noreferrer" class="link-wa">0831-6162-6163</a>
+              </strong>
+            </div>
+            <div class="detail-row">
+              <span class="detail-label">Fokus Layanan</span>
+              <strong class="detail-val">Servis Hardware & Jual Beli iPhone</strong>
+            </div>
+            <div class="detail-row">
+              <span class="detail-label">Jaminan Layanan</span>
+              <strong class="detail-val">Garansi Suku Cadang & Uji Fungsi</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-col">
+          <span class="footer-brand">NST PHONESHOP</span>
+          <p>Layanan reparasi hardware dan penjualan iPhone second terpercaya dengan landasan diagnostik teknis transparan.</p>
+        </div>
+        <div class="footer-col footer-links">
+          <strong>Tautan Navigasi & Kontak</strong>
+          <a href="#servis">Layanan Servis</a>
+          <a href="#tabel-biaya">Daftar Biaya Resmi</a>
+          <a href="#galeri">Galeri Toko</a>
+          <a href="https://www.instagram.com/nst_ore7/" target="_blank" rel="noopener noreferrer">Instagram @nst_ore7</a>
+          <a href="https://wa.me/6281275417695" target="_blank" rel="noopener noreferrer">WhatsApp: 0812-7541-7695</a>
+        </div>
+      </div>
+      <div class="footer-bottom-line">
+        <div class="footer-container">
+          <p>&copy; 2026 NST Phoneshop. Hak cipta dilindungi undang-undang.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Chatbot Widget Integration -->
+    <button id="chatbot-toggler" title="Buka Konsultasi Teknis iPhone">
+      <img src="asset/logo-nst.jpeg" alt="NST" class="toggler-logo-img" />
+      <span class="toggler-text">Konsultasi</span>
+      <span class="close-icon">&times;</span>
+    </button>
+
+    <div class="chatbot-popup" aria-hidden="true">
+      <!-- Chatbot Header -->
+      <div class="chat-header">
+        <div class="header-info">
+          <img src="asset/logo-nst.jpeg" alt="Logo NST" class="chat-header-logo-img" />
+          <div>
+            <h3 class="logo-text">Konsultasi NST Phoneshop</h3>
+            <p class="logo-subtext">Diagnostik Hardware & Estimasi Biaya</p>
+          </div>
+        </div>
+        <button id="close-chatbot" aria-label="Tutup jendela chat">&times;</button>
+      </div>
+
+      <!-- Chatbot Body -->
+      <div class="chat-body">
+        <div class="message bot-message">
+          <img src="asset/logo-nst.jpeg" alt="NST" class="bot-avatar-img" />
+          <div class="message-text">
+            Halo, selamat datang di layanan konsultasi teknis iPhone NST Phoneshop (@nst_ore7).
+            <br /><br />
+            Silakan sebutkan tipe iPhone dan keluhan yang dialami (misalnya: layar bergaris, baterai drop, tidak bisa dicas, sinyal hilang, dsb). Kami akan menganalisis gejala Anda berdasarkan model inferensi resmi dan menyajikan estimasi biaya serta solusi perbaikannya.
+          </div>
+        </div>
+      </div>
+
+      <!-- Chatbot Footer -->
+      <div class="chat-footer">
+        <form action="#" class="chat-form">
+          <textarea placeholder="Tuliskan keluhan atau gejala iPhone Anda..." class="message-input" required></textarea>
+          <button type="submit" id="send-message" aria-label="Kirim pesan">Kirim</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
